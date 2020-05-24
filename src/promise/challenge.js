@@ -1,3 +1,15 @@
+/**
+ * PROS
+ * - Facilmente Enlazable
+ * - Es de mejor lectura
+ * - Muy buena para asincronismo
+ * CONTRA
+ * - No maneja excepciones
+ * - Error al no retornar los llamados
+ * - Requiere polify tipo babel
+ */
+
+
 const fetchData = require('../utils/fetchData')
 const API = 'https://rickandmortyapi.com/api/character/'
 
