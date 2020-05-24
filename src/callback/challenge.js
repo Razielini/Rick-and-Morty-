@@ -1,5 +1,11 @@
 /*
 
+PRO:
+ - Universal en todos los navegadores
+CONTRA
+ - Callback Hell
+ - Dificil de manejar excepciones
+
 - XMLHttpRequest
   .open('TIPO-SOLICITUD', 'URL', Asincrono?:Boolean)
   readyState
